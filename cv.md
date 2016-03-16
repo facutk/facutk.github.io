@@ -54,5 +54,6 @@
 - Java
 - Python
 - AngularJs
+- Javascript
 - C
 - HTML
