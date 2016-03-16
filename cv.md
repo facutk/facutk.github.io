@@ -9,13 +9,13 @@
 ### Programador SAP | 05/2015 - actualidad
 #### Indra para Peugeot, San Isidro
 - [Herramienta en Python](http://home.facu.tk/tatou) para parsear y crear archivos de test.
-- Interfáz para gestión de pedidos, facturas y transferencias de autopartes entre Francia y Brasil. 
-- Interfáz para facturación de autos para Francia y España. 
+- Interfaz para gestión de pedidos, facturas y transferencias de autopartes entre Francia y Brasil. 
+- Interfaz para facturación de autos para Francia y España. 
 
 ### Programador SAP | 02/2013 - 05/2015
 #### Indra para YPF, Microcentro
 - Integración SAP Solman / Trello vía Python.
-- Mantenimiento módulo HR.
+- Mantenimiento módulo HR. 
 
 ### Programador | 11/2011 - 02/2013
 #### Indra para Politec, Puerto Madero
