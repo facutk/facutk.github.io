@@ -51,9 +51,10 @@
 - [blog.facu.tk](http://blog.facu.tk)
 
 ## Skills
-- Java
 - Python
-- AngularJs
 - Javascript
+- AngularJs
+- Java
 - C
 - HTML
+- SQL
