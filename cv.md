@@ -22,7 +22,7 @@
 - App Android con conexión a SAP vía SOAP.
 - Desarrollo, test y documentación de programas para OCA, Edding, DOW, Telefé y Telefónica.
 
-### Pasante | 09/2010 - 03/2011
+### Programador | 09/2010 - 03/2011
 #### Core Security, Palermo
 - Herramienta en Python para automatizar casos de test.
 
