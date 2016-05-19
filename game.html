@@ -1,6 +1,8 @@
 
 <!doctype html>
 <html><head>
+<meta name="viewport" 
+  content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Minimal Platformer Game Engine in HTML5</title>
   <style>
     body { margin: 0 auto; max-width: 800px; padding: 40px; font: 14px/20px 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -8,7 +10,6 @@
     pre { background: #EEE; border: 1px solid #777; padding: 5px; color: #444; }
     h1 { font: bold 50px/50px 'Helvetica Neue', Helvetica, Arial; text-align: center; }
     a { color: inherit; }
-    .button { width: 100; height: 60px; background-color: red; }
   </style>
   <script id="source">
 
@@ -129,13 +130,10 @@ function draw() {
 
 // Set up the game loop
 window.onload = function() {
-  var buttonJump = document.getElementById('buttonJump');
-  buttonJump.onmousedown = function() {keys[38] = true };
-  buttonJump.touchstart = function() {keys[38] = true };
-
-  buttonJump.onmouseup = function() {keys[38] = false };
-  buttonJump.touchend  = function() {keys[38] = false };
-  
+  var screen = document.getElementById('screen');
+  screen.addEventListener("touchstart", function(e) {keys[38] = true }, false);
+  screen.addEventListener("touchend", function() {keys[38] = false }, false);
+    
   setInterval(function() {
     update()
     draw()
@@ -145,5 +143,4 @@ window.onload = function() {
   </script>
 </head><body>
   <canvas id="screen" width="400" height="300"></canvas>
-  <div class="button" id="buttonJump">jump!</div>
 </body></html>
