@@ -131,7 +131,10 @@ function draw() {
 window.onload = function() {
   var buttonJump = document.getElementById('buttonJump');
   buttonJump.onmousedown = function() {keys[38] = true };
+  buttonJump.touchstart = function() {keys[38] = true };
+
   buttonJump.onmouseup = function() {keys[38] = false };
+  buttonJump.touchend  = function() {keys[38] = false };
   
   setInterval(function() {
     update()
