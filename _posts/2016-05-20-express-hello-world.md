@@ -10,7 +10,7 @@ tags: mean, express, hello world, http, get, curl
 Basic Express app to render a hello world.
 
 #### Init ####
-```Shell
+```Bash
 $ mkdir backend && cd backend
 $ npm init
 $ npm install --save express
