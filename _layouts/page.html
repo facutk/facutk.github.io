@@ -5,7 +5,25 @@ layout: default
 {% include themes/twitter/page.html %}
 
 {% if page.nav %}
-<p>
-navigation
-</p>
+
+<ul class="pager">
+
+    <li class="previous">
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>
+    {% else %}
+        <a href="{{ HOME_PATH }}">Home</a>
+    {% endif %}
+    </li>
+
+    <li class="next">
+    {% if page.next %}
+      <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
+    {% else %}
+        <a href="{{ HOME_PATH }}">Home</a>
+    {% endif %}
+    </li>
+
+</ul>
+
 {% endif %}
