@@ -10,11 +10,13 @@ tags: mean, express, hello world, http, get, curl
 Basic Express app to render a hello world.
 
 #### Init ####
-    $ mkdir backend && cd backend
-    $ npm init
-    $ npm install --save express
-    $ npm install
-    $ touch index.js
+```Shell
+$ mkdir backend && cd backend
+$ npm init
+$ npm install --save express
+$ npm install
+$ touch index.js
+```
 
 ##### Ls #####
     backend/
@@ -23,15 +25,17 @@ Basic Express app to render a hello world.
         index.js
 
 #### index.js ####
-    var express = require('express');
+```JavaScript
+var express = require('express');
 
-    var app = express();
+var app = express();
 
-    app.get('/', function(req, res){
-        res.send('Hello World!');
-    });
+app.get('/', function(req, res){
+    res.send('Hello World!');
+});
 
-    app.listen(3000);
+app.listen(3000);
+```
 
 #### Test ####
     $ node index.js
