@@ -63,3 +63,23 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+footer.social {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer.social a {
+    color: #ddd;
+    font-size: 20px;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+footer.social a:hover {
+    color: #aaa;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
