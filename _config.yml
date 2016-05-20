@@ -22,13 +22,11 @@ production_url : http://github.facu.tk
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
 
-theme :
-  name : twitter
-  
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
   version : 0.3.0
+  THEME : twitter
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
@@ -61,7 +59,8 @@ JB :
   # ex:
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
-
+  ASSET_PATH : /assets/themes/twitter
+  
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
