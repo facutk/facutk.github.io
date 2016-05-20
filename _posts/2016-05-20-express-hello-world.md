@@ -1,4 +1,13 @@
-### Express 'Hello World!' ###
+---
+layout: page
+title: Express Hello World
+tagline: Mean Stack
+nav: true
+category: mean
+tags: mean, express, hello world, http, get, curl
+---
+
+Basic Express app to render a hello world.
 
 #### Init ####
     $ mkdir backend && cd backend
@@ -15,18 +24,16 @@
 
 #### index.js ####
     var express = require('express');
-    
+
     var app = express();
-    
+
     app.get('/', function(req, res){
         res.send('Hello World!');
     });
-    
+
     app.listen(3000);
 
 #### Test ####
     $ node index.js
     $ curl localhost:3000
     hola mundo!
-
-

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include JB/setup %}
+{% include themes/twitter/page.html %}
+
+<h2>MEAN tutorial</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.excerpt }}</small>
+    </li>
+  {% endfor %}
+</ul>
