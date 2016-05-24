@@ -5,6 +5,7 @@ tagline: Mean Stack
 nav: true
 category: mean
 tags: mean, express, static files, http, get, html
+comments: false
 ---
 
 Serve a static page from the root of our server.

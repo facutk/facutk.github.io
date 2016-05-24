@@ -5,6 +5,7 @@ tagline: Mean Stack
 nav: true
 category: mean
 tags: mean, express, hello world, http, get, curl
+comments: false
 ---
 
 Basic Express app to render a hello world.
