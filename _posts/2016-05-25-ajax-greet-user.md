@@ -174,4 +174,4 @@ We've covered a lot of ground in this lesson.
 
 As you've seen, using plain old javascript is quite verbose.
 
-In the next chapter we will migrate into a library to achieve this same functionality with a lot less code.
+In following chapters we will migrate into a library to achieve this same functionality using a lot less code.
