@@ -7,7 +7,7 @@
 
 ### Web UI Developer | 04/2015 - actualidad
 * Globant, proyecto Deloitte Federal Security
-- Stack: Angular, .Net
+- Stack: Angular, .Net, SQL Server
 - Desarrollar pantallas de usuario, integrar funcionalidad con backend.
 
 ### Programador SAP | 05/2015 - 04/2016
