@@ -2,6 +2,7 @@
 > - :telephone_receiver: 11.5953.9471
 > - :telephone_receiver: 4790.8054
 > - :notebook: [github.com/facutk](https://github.com/facutk)
+> - :office: [linkedin](https://www.linkedin.com/in/juan-tkaczyszyn-b2630036)
 
 ## Experiencia
 
@@ -54,6 +55,7 @@
 - [Mandelbrot set](http://home.facu.tk/mandelbrot)
 - [i.guanago.com](http://i.guanago.com/)
 - [blog.facu.tk](http://blog.facu.tk)
+- [facutk.github.io](http://facutk.github.io)
 
 ## Skills
 - Python
