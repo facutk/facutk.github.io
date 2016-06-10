@@ -1,9 +1,3 @@
----
-layout: page
-title: Juan Facundo Tkaczyszyn
-tagline: CV
----
-
 > - :envelope: facu.tk@gmail.com
 > - :telephone_receiver: 11.5953.9471
 > - :telephone_receiver: 4790.8054
