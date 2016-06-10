@@ -11,7 +11,12 @@ tagline: CV
 
 ## Experiencia
 
-### Programador SAP | 05/2015 - actualidad
+### Web UI Developer | 04/2015 - actualidad
+* Globant, proyecto Deloitte Federal Security
+- Stack: Angular, .Net
+- Desarrollar pantallas de usuario, integrar funcionalidad con backend.
+
+### Programador SAP | 05/2015 - 04/2016
 * Indra para Peugeot, San Isidro
 - [Herramienta en Python](http://home.facu.tk/tatou) para parsear y crear archivos de test.
 - Interfaz para gestión de pedidos, facturas y transferencias de autopartes entre Francia y Brasil. 
