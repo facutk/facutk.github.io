@@ -51,7 +51,7 @@
 - [i.guanago.com](http://i.guanago.com/)
 - [blog.facu.tk](http://blog.facu.tk)
 - [facutk.github.io](http://facutk.github.io)
-- [Estudio Pinto](http://home.facu.tk/estudiopinto)
+- [Estudio Pinto](http://facu.tk/estudiopinto)
 
 ## Skills
 - Linux
