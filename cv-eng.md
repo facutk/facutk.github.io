@@ -6,7 +6,7 @@
 
 ## Work Experience
 
-### Web Application Engineer | 04/2016 - 12/2016
+### Web Application Engineer | 04/2016 - today
 * Elementum SCM
 - Stack: Angular, Node, Graphql
 - Develop and test screens, backend integration.
