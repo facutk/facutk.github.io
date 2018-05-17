@@ -6,7 +6,11 @@
 
 ## Experiencia
 
-### Web UI Developer | 04/2015 - actualidad
+### Web UI Developer | 01/2017 - Actualidad
+* Elementum
+- Stack: React, Node, Angular
+
+### Web UI Developer | 04/2016 - 12/2016
 * Globant, proyecto Deloitte Federal Security
 - Stack: Angular, .Net, SQL Server
 - Desarrollar pantallas de usuario, integrar funcionalidad con backend.

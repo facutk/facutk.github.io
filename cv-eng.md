@@ -6,10 +6,9 @@
 
 ## Work Experience
 
-### Web Application Engineer | 04/2016 - today
+### Web Application Engineer | 01/2017 - Today
 * Elementum SCM
-- Stack: Angular, Node, Graphql
-- Develop and test screens, backend integration.
+- Stack: React, Node, Angular
 
 ### Web UI Developer | 04/2016 - 12/2016
 * Globant, Deloitte account
