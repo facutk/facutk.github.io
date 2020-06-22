@@ -41,3 +41,48 @@ func main() {
   }
 }
 ```
+
+### Gorutines + channels
+```golang
+package main
+
+import "fmt"
+import "net/http"
+
+type Hub struct {
+   color string
+   message chan string
+}
+
+func newHub() *Hub {
+  return &Hub{
+    color: "white",
+    message: make(chan string),
+  }
+}
+
+func (h *Hub) run() {
+  for {
+    select {
+      case msg:= <-h.message:
+        h.color = msg
+    }
+  }
+}
+
+func main() {
+  hub := newHub()
+  go hub.run()
+
+  http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+    fmt.Fprintf(w, hub.color);
+  })
+
+  http.HandleFunc("/change", func(w http.ResponseWriter, r *http.Request) {
+    hub.message <- "red";
+    fmt.Fprintf(w, "OK\n");
+  })
+
+  http.ListenAndServe(":9090", nil)
+}
+```
