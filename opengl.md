@@ -29,8 +29,8 @@ handleDisplay(void)
 void
 handleKeyboard(unsigned char key, int x, int y)
 {
-	if (key == 27) {
-		exit(0);
+  if (key == 27) {
+    exit(0);
   }
 }
 
